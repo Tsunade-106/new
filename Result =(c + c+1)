@@ -1,0 +1,10 @@
+def name(n):
+    a,b = 1,1
+    for i in range(0,n):
+        c=(a+b)
+        print(a)
+        a ,b = c ,c+1 
+n=int(input("Enter the nth series : "))
+name(n)
+
+
